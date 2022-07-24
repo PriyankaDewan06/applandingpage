@@ -1,0 +1,132 @@
+.swiper {
+width: 100%;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.swiper-slide {
+background-position: center;
+background-size: cover;
+width: 300px;
+height: 300px;
+}
+
+.swiper-slide img {
+display: block;
+width: 100%;
+}
+.app-screen{
+  padding-bottom:5.313rem;
+  }
+.app-screen .swiper-slide{
+width: 263px !important;
+height:auto;
+}
+.single_price{
+  -webkit-box-shadow: 0 0.313rem 0.875rem rgb(45 49 54/9%);
+  box-shadow: 0 0.313rem 0.875rem rgb(45 49 54/9%);
+  text-align: center;
+  padding:2.5rem 0;
+  position:relative;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.single_price .month{
+  background:var(--bg-gradient);
+  color: var(--text-white);
+  width:6.25rem;
+  padding:0.625rem;
+  transform: rotate(-90deg);
+  position:absolute;
+  top:1.625rem;
+  right:-0.563rem;
+}
+.single_price .month:before{
+  content:'';
+  top:0.563rem;
+  left:-0.938rem;
+  background:var(--bg-light-pink);
+  position:absolute;
+  transform:rotate(45deg);
+  padding:0.938rem;
+}
+.single_price .icon_pad{
+  width:5rem;
+  height:4.875rem;
+  margin:2.5rem auto 3.125rem;
+  border-right:dashed 0.313rem (var--bg-light-pink);
+  border-bottom:solid 0.313rem (var--bg-light-pink);
+  border-radius: 100%;
+  padding-left:0.563rem;
+  padding-top:4.38rem;
+}
+.single_price .icon_circle{
+  background:var(-bg-light-pink);
+  color:var(-text--white);
+  width:3.75rem;
+  height: 3.75rem;
+  border-radius:100%;
+  margin: 0 0 0 -0.063rem;
+  padding-left: 0.625rem;
+  font-size: 1.625rem;
+}
+.single_price .dolar h2{
+  font-weight: 700;
+  font-size:2.81rem;
+  }
+  .single_price .dolar h2{
+    font-weight: 700;
+    font-size:2.81rem;
+    }
+  .single_price .dolar h2 span{
+      font-weight: 600;
+      vertical-align:super;
+      padding-right: 0.125rem;
+      font-size:2.875rem;
+      }
+  .single_price{
+    padding: 0.313rem 0;
+  }
+  .single_price:hover{
+    cursor:pointer;
+    margin-top:-0.625rem;
+  }
+  .active_price{
+    background:var(--bg-gradient);
+    color:var(--text--white);
+  }
+  .active_price h5,
+  .active_price .dolar h2,
+  .active_price .dolar-sine{
+    color:var(--text-white);
+  }
+
+  <!--Scroll Top Icon
+  <div id="scrollUp" title="Scroll To Top">
+    <a href="#home"><span class="ti-arrow-up fs-4 text-white"></span> </a>
+  </div> ---->
+  /* 13.0 Contact CSS */
+#scrollUp{
+    position: fixed;
+    right:2%;
+    bottom:3%;
+    height: 2.813rem;
+    width:2.5rem;
+    border-radius: 0.25rem;
+    text-align:center;
+    cursor: pointer;
+    z-index: 500;
+    display: none;
+    -webkit-transition:all 0.4s ease-in-out 0s;
+    transition:all 0.4s ease-in-out 0s;
+    background: var(--bg-light-pink);
+    }
+#scrollUp span{
+  line-height: 2.625rem;
+  }
+#scrollUP .scrollActive{
+  display:block;
+}
